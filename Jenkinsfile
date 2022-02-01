@@ -6,10 +6,10 @@ node {
     def RUN_ARTIFACT_DIR="tests/${BUILD_NUMBER}"
     def SFDC_USERNAME
 
-    def HUB_ORG = "mawais.malik@empathetic-unicorn-9xl702.com" //env.HUB_ORG_DH
+    def HUB_ORG = "awaisafiniti@empathetic-wolf-tel0yq.com" //"mawais.malik@empathetic-unicorn-9xl702.com" //env.HUB_ORG_DH
     def SFDC_HOST = "https://login.salesforce.com" //env.SFDC_HOST_DH
-    def JWT_KEY_CRED_ID = "JWT_KEY_FILE" //env.JWT_CRED_ID_DH
-    def CONNECTED_APP_CONSUMER_KEY = "3MVG9pRzvMkjMb6ldL9vVDPBGsdJIUFY.DLZsh8lJcWBI_V2L5O6HI.tjFmCt2zOWwKVXcZTlWPsKarOJmKto" //env.CONNECTED_APP_CONSUMER_KEY_DH
+    def JWT_KEY_CRED_ID = "660eb69d-a259-4ba6-a533-cfc0e75c24e3" //"JWT_KEY_FILE" //env.JWT_CRED_ID_DH
+    def CONNECTED_APP_CONSUMER_KEY = "3MVG9pRzvMkjMb6lstWCxYFG6iUPAHDa8R232L0c3UuOdo_qfCStwJRqFprFf03NdcRyvEpX8oj559R8Z_jCf" //"3MVG9pRzvMkjMb6ldL9vVDPBGsdJIUFY.DLZsh8lJcWBI_V2L5O6HI.tjFmCt2zOWwKVXcZTlWPsKarOJmKto" //env.CONNECTED_APP_CONSUMER_KEY_DH
 
     
     println 'KEY IS'
