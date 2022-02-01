@@ -91,7 +91,8 @@ node {
             // -------------------------------------------------------------------------
 
             stage('Run Tests In Scratch Org') {
-                rc = command "${toolbelt}/sfdx force:apex:test:run --targetusername ciorg --wait 10 --resultformat tap --codecoverage --testlevel ${TEST_LEVEL}"
+		sh "mkdir -p ${RUN_ARTIFACT_DIR}"
+                rc = command "${toolbelt}/sfdx force:apex:test:run --targetusername ciorg --wait 10 --outputdir ${RUN_ARTIFACT_DIR} --resultformat tap --codecoverage --testlevel ${TEST_LEVEL}"
                 if (rc != 0) {
                     error 'Salesforce unit test run in test scratch org failed.'
                 }
