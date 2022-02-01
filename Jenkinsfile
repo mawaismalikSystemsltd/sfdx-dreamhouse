@@ -5,6 +5,7 @@ node {
     def BUILD_NUMBER=env.BUILD_NUMBER
     def RUN_ARTIFACT_DIR="tests/${BUILD_NUMBER}"
     def SFDC_USERNAME
+    def TEST_LEVEL='RunLocalTests'
 
     def HUB_ORG = "awaisafiniti@empathetic-wolf-tel0yq.com" //"mawais.malik@empathetic-unicorn-9xl702.com" //env.HUB_ORG_DH
     def SFDC_HOST = "https://login.salesforce.com" //env.SFDC_HOST_DH
