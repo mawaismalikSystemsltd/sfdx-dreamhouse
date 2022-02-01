@@ -4,7 +4,7 @@ public with sharing class PropertyController {
     public static PropertyPagedResult findAll(String searchKey, Decimal minPrice, Decimal maxPrice, Decimal pageNumber) {
         Integer pageSize = 8;
         String key = '%' + searchKey + '%';
-        Integer offset = ((Integer)pageNumber - 1) * pageSize
+        Integer offset = ((Integer)pageNumber - 1) * pageSize;
         
        
         PropertyPagedResult r =  new PropertyPagedResult();
