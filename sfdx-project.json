@@ -3,7 +3,7 @@
     {
       "path": "src/common",
       "default": true,
-      "package": "dreamhouse"
+      "package": "00D5j000007dYrCEAU"
     },
     {
       "path": "src/ui"
@@ -11,8 +11,5 @@
   ],
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "50.0",
-  "packageAliases": {
-        "dreamhouse": "00D5j000007dYrCEAU"
-    }
+  "sourceApiVersion": "50.0"
 }
