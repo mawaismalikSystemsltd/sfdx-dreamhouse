@@ -1,12 +1,9 @@
 {
   "orgName": "Your Company",
   "edition": "Enterprise",
-  "orgPreferences": {
-    "enabled": [
-      "S1DesktopEnabled"
-    ],
-    "disabled": [
-      "ChatterEnabled"
-    ]
-  }
+  "settings": {
+        "lightningExperienceSettings": {
+            "enableS1DesktopEnabled": true
+        }
+    }
 }
